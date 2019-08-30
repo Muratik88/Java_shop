@@ -22,7 +22,7 @@ public class Main {
 
         List<Buyer> list1 = dbHelper.getBuyer();
         for (Buyer buyer:list1) {
-            System.out.println("nИмя - " + buyer.getName() + ", Адрес - " + buyer.getAddress() + ", Телефон - " + buyer.getPhone());
+            System.out.println("Имя - " + buyer.getName() + ", Адрес - " + buyer.getAddress() + ", Телефон - " + buyer.getPhone());
         }
 
     }
