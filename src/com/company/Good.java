@@ -5,7 +5,6 @@ public class Good {
     private int price;
     private int amount;
     private int id;
-    DBFField[] fields = new DBFField[3];DBFField[] fields = new DBFField[3];
     public Good(int id, String name, int price, int amount) {
         this.name = name;
         this.price = price;
